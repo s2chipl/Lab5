@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Chê điểm</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <center>
+        <fieldset>
+            <legend style="text-align: center;"><Caption><b>ĐĂNG KÝ MÔN HỌC</b></Caption></legend>
+        <table border="1" width="50%">
+        <tr>
+            <th>STT</th>
+            <th>Tên Môn Học</th>
+            <th>Đăng Ký</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Tin Học Đại Cương</td>
+            <td><input type="checkbox" name=monhoc value="thdc"></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Cơ Sở Dữ Liệu</td>
+            <td><input type="checkbox" name=monhoc value="csdl"></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Công Nghệ Phần Mềm</td>
+            <td ><input type="checkbox" name=monhoc value="cnpm"></td>
+        </tr>
+        </table>
+        <form action="" method="">
+            <div>
+            <label for="frmten">Tên sinh viên: </label><br>
+                <input type="text" name="ten" id="frmten" maxlength="50" size="25" style="border: 2px solid rgb(38, 38, 38);">
+            </div>
+            <div>
+                <label for="frmlop">Lớp: </label><br>
+                <input type="text" name="lop" id="frmlop" maxlength="20" size="10" style="border: 2px solid rgb(38, 38, 38);">
+            </div>
+            <br>
+                <input type="submit" name="send" value="Gửi" style="border: 2px solid black; background-color: rgb(109, 255, 255) ;">
+        </form>
+        </fieldset>
+    </center>
+</body>
+</html>
